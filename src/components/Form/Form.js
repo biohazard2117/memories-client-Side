@@ -6,6 +6,8 @@ import { useDispatch } from 'react-redux'
 import useStyles from './styles';
 import { createPost } from '../../actions/posts';
 
+// GET THE CURRENT ID OF CURRENT POST
+
 const Form = () => {
     const [postData, setPostData] = useState({
         creator: '', title: '', message: '', tags: '', selectedFile: ''
